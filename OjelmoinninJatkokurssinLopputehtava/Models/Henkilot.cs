@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OjelmoinninJatkokurssinLopputehtava.Models
+namespace OhjelmoinninJatkokurssinLopputehtava.Models
 {
     using System;
     using System.Collections.Generic;

@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using OjelmoinninJatkokurssinLopputehtava.Models;
+using OhjelmoinninJatkokurssinLopputehtava.Models;
 
-namespace OjelmoinninJatkokurssinLopputehtava
+namespace OhjelmoinninJatkokurssinLopputehtava
 {
     public partial class Startup
     {

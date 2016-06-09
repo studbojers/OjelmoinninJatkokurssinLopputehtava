@@ -1,11 +1,11 @@
-﻿using OjelmoinninJatkokurssinLopputehtava.Models;
+﻿using OhjelmoinninJatkokurssinLopputehtava.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace OjelmoinninJatkokurssinLopputehtava.Controllers
+namespace OhjelmoinninJatkokurssinLopputehtava.Controllers
 {
     public class ProjektiController : Controller
     {

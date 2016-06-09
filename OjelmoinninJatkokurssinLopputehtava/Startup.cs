@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(OjelmoinninJatkokurssinLopputehtava.Startup))]
-namespace OjelmoinninJatkokurssinLopputehtava
+[assembly: OwinStartupAttribute(typeof(OhjelmoinninJatkokurssinLopputehtava.Startup))]
+namespace OhjelmoinninJatkokurssinLopputehtava
 {
     public partial class Startup
     {

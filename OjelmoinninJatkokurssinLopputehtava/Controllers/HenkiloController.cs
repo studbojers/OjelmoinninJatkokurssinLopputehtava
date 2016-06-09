@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using OjelmoinninJatkokurssinLopputehtava.Models;
+using OhjelmoinninJatkokurssinLopputehtava.Models;
 
-namespace OjelmoinninJatkokurssinLopputehtava.Controllers
+namespace OhjelmoinninJatkokurssinLopputehtava.Controllers
 {
     public class HenkiloController : Controller
     {

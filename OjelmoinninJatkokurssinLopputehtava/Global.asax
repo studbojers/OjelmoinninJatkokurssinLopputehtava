@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="OjelmoinninJatkokurssinLopputehtava.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="OhjelmoinninJatkokurssinLopputehtava.MvcApplication" Language="C#" %>
