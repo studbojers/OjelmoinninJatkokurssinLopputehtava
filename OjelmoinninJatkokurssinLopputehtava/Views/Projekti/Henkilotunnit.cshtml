@@ -1,0 +1,66 @@
+﻿@model IEnumerable<OjelmoinninJatkokurssinLopputehtava.Models.Tunnit>
+
+@{
+    ViewBag.Title = "Henkilotunnit";
+}
+
+<h2>Henkilötunnit - @ViewBag.ProjektiNimi</h2>
+
+<p>
+    <!--@Html.ActionLink("Create New", "Create")-->
+</p>
+<table class="table">
+    <tr>
+        <!--
+        <th>
+            @Html.DisplayNameFor(model => model.Tunti_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Projekti_id)
+        </th>
+        -->
+        <th>
+            <!--@Html.DisplayNameFor(model => model.Henkilo_id)-->
+           Nimi
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pvm)
+        </th>
+        <th>
+            <!--@Html.DisplayNameFor(model => model.Tunnit1)-->
+            Tunnit
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <!--
+        <td>
+            @Html.DisplayFor(modelItem => item.Tunti_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Projekti_id)
+        </td>
+        -->
+        <td>
+            <!--@Html.DisplayFor(modelItem => item.Henkilo_id)-->
+            @ViewBag.Nimilista[item.Henkilo_id]
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pvm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tunnit1)
+        </td>
+        <td>
+            <!--
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            -->
+        </td>
+    </tr>
+}
+
+</table>
